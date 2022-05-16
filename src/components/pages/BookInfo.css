@@ -1,0 +1,53 @@
+.bookInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: calc(2em + 70px);
+  margin-bottom: 20px;
+  max-width: 500px;
+}
+
+.bookInfo p {
+  margin: 5px 0;
+  padding: 5px 50px;
+  text-align: justify;
+}
+
+.bookInfo img {
+  width: 180px;
+}
+
+.bookInfo .pages strong{
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  gap: 10px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.backButton {
+  width: 90px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #4e4eff;
+}
+
+.backButton .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 40px;
+}
+
+.backButton:hover {
+  background-color: #0000ff;
+}
+
+.backButton a {
+  color: #FFF;
+}

@@ -1,0 +1,4 @@
+.registerSection, .editSection {
+  margin-top: calc(2em + 70px);
+  margin-bottom: 10vh;
+}
